@@ -53,7 +53,7 @@ def main(page: ft.Page):
         txt_result.value = ""
         page.update()
 
-    page.title = "YouTube Channel URL Detector"
+    page.title = "YouTube Channel URL Extractor"
 
     btn_extract = ft.ElevatedButton("Extract Channel URL!", on_click=btn_cilck)
     btn_paste = ft.ElevatedButton("Paste", on_click=paste_click)
