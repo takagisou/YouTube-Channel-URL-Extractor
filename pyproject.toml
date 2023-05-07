@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "try-flet"
+version = "0.1.0"
+description = ""
+authors = ["sana <takagisou@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "try_flet"}]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+flet = "^0.6.2"
+pyinstaller = "^5.10.1"
+yt-dlp = "^2023.3.4"
+pyperclip = "^1.8.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
