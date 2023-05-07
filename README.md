@@ -1,6 +1,6 @@
 # YouTube Channel URL Extractor
 
-Made with [flet](https://github.com/flet-dev/flet)
+Made with [Flet](https://github.com/flet-dev/flet)
 
 
 ![screenshot](./assets/image.png)
